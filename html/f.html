@@ -1,0 +1,45 @@
+<form id="form" name="contact_form">
+    <img src="../images/avatar.svg" class="pt-3">
+    <h2 class="title">Contact</h2>
+       <div class="input-div one fiiname">
+          <div class="i">
+                  <i class="fas fa-user"></i>
+          </div>
+          <div class="div">
+                  <h5>Username</h5>
+                  <input type="text" name="person_name" class="input" onkeydown="return /[a-z, ]/i.test(event.key)">
+          <span class="fiiname" id="myDIV1">Please enter your name</span>
+          </div>
+       </div>
+       <div class="input-div pass">
+          <div class="i"> 
+               <i class="fas fa-lock"></i>
+          </div>
+          <div class="div">
+               <h5>Email</h5>
+               <input type="email" name="email_id" class="input">
+         <span class="fiiname" id="myDIV2">Please enter valid email address</span>
+       </div>
+    </div>
+    <div class="input-div pass">
+          <div class="i"> 
+        <i class="fa-solid fa-phone-volume"></i>
+          </div>
+          <div class="div">
+               <h5>Phone Number</h5>
+               <input type="number" name="person_mobile" class="input">
+         <span class="fiiname" id="myDIV3">Please enter valid phone number</span>
+       </div>
+    </div>
+    <div class="pass">
+        <div class="div">
+             <!-- <h5>Comment </h5> -->
+             <textarea name="msg" id="comment" placeholder="Write Your Query" rows="3" class="input1 b-0 w-100" ></textarea>
+             <span class="fiiname" id="myDIV4">Write Your Comment</span>
+     </div>
+  </div>
+    
+  <div class="text-center" align="center">
+    <input type="submit" id="button" class="btn_1" value="Login">
+  </div>
+</form>
